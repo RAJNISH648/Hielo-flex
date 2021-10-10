@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+html{
+    font-size: 15px;
+}
+
+ /* header */
+ header{
+     width: 100%;
+     position: relative; 
+ }
+ nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+    position: absolute; 
+    top: 1.5rem;
+    z-index: 15;
+}
+.logo{
+    margin-left: 0.9rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+nav span{
+    color: #dbdbdb;
+    font-size: 1rem;
+    font-weight: 400;
+}
+ul{
+    display: flex;
+   position: absolute;
+}
+ul li{
+    list-style: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    display: none;
+    position: relative;
+    top: 4rem;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    border: 0;
+    color: #fff;
+    margin-right: 0.9rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.fixed-width{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5%  5%;
+    z-index: 5;
+    text-align: center;
+}
+.banner{
+    position: absolute;
+    top: 25%;
+    left: 27%;     
+    
+    z-index: 100;
+    color: #fff;
+} 
+.banner P{
+    color: darkgray;
+    font-size: 1.1rem;
+    font-weight: 300;
+    word-spacing: 0.3rem;
+    margin-bottom: 1.5rem; 
+}
+.banner hr{
+    width: 25%;
+    height: 0.01rem;
+    margin: 0 auto;
+    background-color: grey;
+    border: none;
+}
+.banner h1{
+    font-size: 6rem;
+    font-weight: 400;
+} 
+.banner-slider{
+    width: 100%; 
+    position: relative;
+}
+.banner-slider .item{
+    width: 100vw;
+    height: 100vh;
+    min-height: 600px;
+}
+.banner-slider .image-slider1{
+    background: url("../img/slide01.jpg");
+    background-position: center top; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-slider .image-slider2{
+    background: url("../img/slide02.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-slider .image-slider3{
+    background: url("../img/slide03.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-slider .image-slider4{
+    background: url("../img/slide04.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-slider .image-slider5{ 
+    background: url("../img/slide05.jpg"); 
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* info section */
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.info{
+    width: 100%;
+    background-color: darkgray;
+    padding: 1.25rem ; 
+}
+.two-part{
+    background-color: #fff;
+    width: 47%;
+}
+.two-part img{
+    width: 100%;
+}
+.two-part h6{
+    color: darkgray;
+    font-size: 0.85rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    padding: 0.5rem 0;
+}
+.two-part hr{
+    width: 40%;
+    height: 0.01rem;
+    margin: 0 auto;
+    background-color: darkgrey;
+    border: none;
+}
+.two-part h3{
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding: 00.5rem;
+}
+.two-part p{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.5rem;
+    color: grey;
+}
+.two-part .btn{
+    width: 10rem;
+    height: 2.7rem;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 1rem 0 2rem 0;
+    border: 2px solid #dfdfdf;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #000;
+}
+ 
+        /* main section */
+main{
+    text-align: center;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #dfdfdf;
+    padding: 7rem 0;
+}
+main p{
+    letter-spacing: 0.3rem;
+    font-size: 1rem;
+}
+main hr{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+}
+main h5{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 1.4rem 0;
+}
+     
+     /* four-image-section */
+.four-image-section{
+    width: 100%;
+    background-color: darkgray;
+    text-align: center;
+}
+.four-image-section p{
+    letter-spacing: 0.3rem;
+    font-size: 1rem;
+}
+.four-image-section hr{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+}
+.four-image-section h5{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 1.4rem 0;
+}
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5%  5%;
+}
+.four-image img{
+    width: 48%;
+    margin: 2rem 0;
+    border: 10px solid #fff;
+}
+
+     /* footer */
+footer{
+    width: 100%;
+    padding: 3.6rem 0;
+    background-color: #000;
+    color: grey;
+    text-align: center;
+}
+footer .fa{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+footer p{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+   /* media query starts */
+
+@media only screen and (max-width:992px){
+    .banner{
+        left: 20%;  
+    }
+    .banner h1{
+        font-size: 5rem;
+    }
+}
+@media only screen and (max-width:768px){ 
+    ul li{
+        margin-top: -1rem;
+    }
+    .banner{
+        left: 15%;     
+    }
+    .banner h1{
+        font-size: 4rem;
+    }
+    .banner P{
+       font-size: 1rem;
+        word-spacing: 0;
+    }
+    .two-part{
+        width: 100%; 
+        margin-top: 2rem;
+    }   
+    .four-image img{
+        width: 100%;
+    }
+    main p{
+        letter-spacing: 0.1rem;
+        font-size: 0.8rem;
+    }
+    main h5{
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+    .four-image-section p{
+        letter-spacing: 0.1rem;
+        font-size: 0.8rem;
+    }
+    .four-image-section h5{
+        font-size: 1.3rem;
+    }
+    section h6{
+      font-size: 0.75rem;
+      letter-spacing: 0.2rem;
+    }
+    section h3{
+        font-size: 1.4rem;
+    }
+    section p{
+       font-size: 0.9rem;
+       line-height: 1.35rem;
+    }
+    section .btn{
+        width: 9rem;
+        height: 2.4rem;
+        font-size: 1rem;
+    }
+    footer .fa{
+        font-size: 1.1rem;
+    }
+    footer p{
+        font-size: 0.7rem;
+    }
+}
+         /* media quries ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
